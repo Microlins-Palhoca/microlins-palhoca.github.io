@@ -1,0 +1,1487 @@
+*{margin: 0; padding: 0;}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*############################ MENU ############################*/
+nav {
+  width: 100%;
+  height: 50%;
+  background-color: #1100ff;
+  font-size: 16px;
+}
+
+nav .menu {
+  width: 100%;
+  height: 5rem;
+}
+
+
+nav .menu .itens-menu ul {
+  display: flex;
+  list-style: none;
+  margin-left: 10%;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+nav .menu .itens-menu li {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-top: 2%;
+  position: relative;
+}
+
+nav .menu .itens-menu .responsivo {
+  display: none;
+}
+
+nav .menu .itens-menu ul li ul {
+  position:absolute;
+  top: 32px;
+  left:0;
+  background-color:#1100ffdc;
+  display:none;
+  width: 40rem;
+  height: 15rem;
+  margin: 0%;
+  padding: 0%;
+  margin-left: 5px;
+  text-align: initial;
+}
+
+nav .menu .itens-menu ul li ul li {
+  margin-left: 15px;
+  top: 5px;
+}
+
+nav .menu .itens-menu ul li:hover ul {
+  display:block;
+}
+
+nav .menu .itens-menu ul li a {
+  text-decoration: none;
+  color: #ececec;
+  transition: 400ms;
+  padding: 10px;
+}
+
+nav .menu .itens-menu ul li a:hover {
+  background-color: #ffffff;
+  color: #1100ff;
+  transform: scale(1.1);
+  border-radius: 5%;
+
+}
+
+nav .menu .itens-menu ul img{
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+}
+
+
+/*############################ Conteúdo ############################*/
+
+article {
+  width: 100%;
+  height: 50%;
+
+}
+
+article .container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+
+article .container .area-image{
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+article .container .area-image img{
+  width: 65%;
+  height: 50%;
+}
+
+article .container .area-text {
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+}
+
+article .container .area-text h1,h2,p {
+  width: 70%;
+  color: #1100ff;
+}
+
+article .container .area-text h2{
+  color: #323235;
+}
+
+article .container .area-text h1 {
+  font-weight: bold;
+  font-size: 44px;
+  color: #1100ff;
+}
+
+
+article .container .area-text button {
+  background-color: transparent;
+  color: #1100ff;
+  border: 1px solid #1100ff;
+  padding: 15px;
+  border-radius: 20px;
+  transition: 500ms;
+}
+
+article .container .area-text button:hover {
+  background-color: #1100ff;
+  color: white;
+  border: 1px solid #ffffff;
+}
+
+article .content {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+article .content .numeros{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #1100ff;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;     
+}
+
+article .content h1 {
+  color: #3d3d3d;
+}
+
+article .content ul {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+article .content ul li  p {
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+article .content ul li {
+  list-style: none;
+  margin: 2%;
+}
+
+article .content ul li h4 {
+  color: #1100ff;
+}
+
+
+
+/*############################ Rodape ############################*/
+
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  border-top: 1px solid #2c2c2c67;
+}
+
+footer .parceiros {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+footer .parceiros ul {
+  display: flex;
+  margin: auto;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .parceiros h1 {
+  color: #1100ff;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+
+footer .parceiros ul li{
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+footer .parceiros ul li img{
+  filter: grayscale(100%);
+  width: 150px;
+  height: 45px;
+  transition: 600ms;
+}
+
+footer .parceiros ul li img:hover{
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+footer .rodape {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to right, #1b1b1b, #2c2c2c, #1b1b1b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .rodape ul {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+footer .rodape ul li {
+  list-style: none;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
+footer .rodape ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 500ms;
+}
+
+footer .rodape ul li a:hover {
+  color: #616060;
+}
+
+
+
+/*############################ pagina Escola ############################*/
+
+article .escola-artigo {
+
+  width: 100%;
+  height: auto;
+  margin: auto;
+  align-items: center;
+
+}
+
+article .escola-artigo .imagem-artigo{
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  text-align: center;
+
+}
+
+article .escola-artigo .imagem-artigo h1 {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+article .escola-artigo .imagem-artigo img{
+  width: 70%;
+  height: 50%;
+  border: 5px solid #1100ff;
+}
+
+article .escola-artigo .texto-artigo {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+article .escola-artigo .texto-artigo h1 {
+  color: #1100ff;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+article .escola-artigo .texto-artigo h2 {
+  color: #2c2c2c;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+article .escola-artigo .texto-artigo p{
+  text-align: center;
+  color: #2c2c2c;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 1%;
+  width: 100%;
+}
+
+
+
+
+/*############################ pagina Artigo ############################*/
+
+article .articlearea {
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+article .articletextlist {
+  margin-top: 5%;
+}
+
+article .articlearea .articletext {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+article .articlearea .articletext ul {
+  color: #141414;
+  list-style: none; 
+  margin-top: 10%;
+  width: 1000px;
+}
+
+article .articlearea .articletext p {
+  text-align: left;
+  margin-top: 15px;
+  color: #141414;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+article .articlelist {
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+article .articlelist .articletextlist {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+article .articlelist .articletextlist li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+article .articlelist .articletextlist a {
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+}
+
+
+article .artigo {
+  width: 1020px;
+  height: 200px;
+  background-color: #f3f3f35d;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  box-shadow: rgba(128, 124, 124, 0.164) 2px 1px 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article .artigo img{
+  width: 270px;
+  height: 200px;
+  float: left;
+}
+
+article .artigo .artigotext {
+  width: 650px;
+  float: right;
+  margin-right: 90px;
+}
+
+article .artigo .artigotext h1{
+  width: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+  float: left;
+  color: rgb(10, 10, 10);
+}
+
+article .artigo:hover h1{
+  color: #2c2c2c;
+  text-decoration: underline;
+
+}
+
+
+article .artigo .artigotext p{
+  width: auto;
+  padding-right: 470px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  float: left;
+  margin-left: 0%;
+}
+
+article .artigo .artigoinforma {
+  width: 500px;
+}
+
+article .artigo .artigoinforma p {
+  color: #2c2c2c;
+}
+
+article .escola-artigo .artigo-background {
+  background-color: #141414;
+  height: 10rem;
+  border-bottom: 2px solid #363636;
+}
+
+article .escola-artigo .artigo-background h1 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 2%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+article .escola-artigo .artigo-background p {
+  color: #ffffff;
+  font-size: 15px;
+  font-style: italic;
+  padding-top: 1%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+article .escola-artigo .artigo-texto {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 5%;
+  align-items: center;
+  text-align: center;
+}
+
+article .escola-artigo .artigo-texto p{
+  color: #2c2c2c;
+  text-align: initial;
+  margin-left: 15%;
+}
+
+article .escola-artigo .artigo-texto img{
+  width: 200px;
+  height: 190px;
+  margin-bottom: 2%;
+}
+
+
+
+
+/*############################ pagina JuiceTech ############################*/
+
+
+article .container-jtech {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+
+article .container-jtech .area-image{
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+article .container-jtech .area-image img{
+  width: 45%;
+  height: 30%;
+}
+
+article .container-jtech .area-text-jtech {
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+}
+
+article .container-jtech .area-text-jtech p {
+  width: 50%;
+  color: #eeedfc;
+}
+
+article .container-jtech .area-text-jtech h2{
+  width: 60%;
+  color: #8d8d8d;
+}
+
+article .container-jtech .area-text-jtech h1 {
+  width: 60%;
+  font-weight: bold;
+  font-size: 44px;
+  color: #eeedfc;
+}
+
+
+article .container-jtech .area-text-jtech button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+  transition: 500ms;
+}
+
+article .container-jtech .area-text-jtech button:hover {
+  background-color: #ffffff;
+  color: #292929;
+  border: 1px solid #ffffff;
+}
+
+
+
+
+
+
+/*############################ pagina Workshop ############################*/
+
+
+article .workshop {
+  height: 500px;
+  width: 100%;
+  margin-top: 5%;
+  background-color:white;
+}
+
+article .workshop h1{
+  color: #1100ff;
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
+}
+
+article .workshop ul li {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+  margin: auto;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+article .workshop .bloco-workshop {
+  cursor: pointer;
+  border: 1px solid #1100ff;
+  background: #1100ff;
+  border-radius: 25px;
+  width: 300px;
+  height: 90px;
+  transition: 900ms;
+}
+
+article .workshop .bloco-workshop:hover {
+  border: 1px solid #1100ff;
+  transition: 900ms;
+  background:#0c00b1;
+  border-radius: 50px;
+}
+
+article .workshop .bloco-workshop p{
+  font-size: 20px;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+}
+
+article .workshop .bloco-workshop h1{
+  font-size: 20px;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+}
+
+
+
+
+
+/*############################ pagina Duvidas ############################*/
+
+article .duvidas {
+  height: 900px;
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+article .duvidas h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+article .duvidas .faq ul li{
+  list-style: none;
+  margin-top: 2%;
+  margin-bottom: 5%;
+
+}
+
+article .duvidas .faq ul li h1{
+  text-align: left;
+  padding-left: 2%;
+  padding: 1%;
+  font-size: 18px;
+  color: white;
+  background-color: #1b1b1b;
+  border-radius: 20px;
+}
+
+article .duvidas .faq ul li p {
+  color: #141414;
+  padding-left: 2%;
+  margin-left: 0%;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) and (max-height: 980px) {
+  /*IPHONE SE 375 x 667*/
+
+
+  *{margin: 0; padding: 0;}
+
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  /*############################ MENU ############################*/
+  nav {
+    width: 130%;
+    height: 80%;
+    background-color: #1100ff;
+    font-size: 16px;
+  }
+  
+  nav .menu {
+    width: 30%;
+    height: 8rem;
+  }
+  
+  
+  nav .menu .itens-menu ul {
+    display: flow-root;
+    list-style: none;
+    margin-left: 0%;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  nav .menu .itens-menu li {
+    margin-top: 2%;
+    position: relative;
+    font-size: 0px;
+    color: #0c00b1;
+  }
+  
+  nav .menu .itens-menu ul li ul {
+    position:absolute;
+    top: 32px;
+    left:0;
+    background-color: white;
+    display:none;
+    width: 20rem;
+    height: 15rem;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 5px;
+    text-align: initial;
+  }
+
+  nav .menu .itens-menu ul li ul a{
+    color: #0c00b1;
+  }
+  
+  nav .menu .itens-menu .responsivo {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+
+  .menu-aberto.menu {
+    transition: 0.9s;
+    height: 30rem; /* Altura quando o menu estiver aberto */
+  }
+
+  .exibir-lista.itens-menu ul li {
+    font-size: 16px; /*Texto quando estiver aberto */ 
+    transition: 0.9s;
+
+  }
+  
+  nav .menu .itens-menu .responsivo button {
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+  }
+
+  nav .menu .itens-menu ul li ul li {
+    margin-left: 15px;
+    top: 5px;
+  }
+  
+  nav .menu .itens-menu ul li:hover ul {
+    display:block;
+  }
+  
+  nav .menu .itens-menu ul li a {
+    text-decoration: none;
+    color: #ececec;
+    transition: 400ms;
+    padding: 10px;
+  }
+  
+  nav .menu .itens-menu ul li a:hover {
+    background-color: #ffffff;
+    color: #1100ff;
+    transform: scale(1.1);
+    border-radius: 5%;
+  
+  }
+  
+  nav .menu .itens-menu ul img{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+  }
+  
+  
+  /*############################ Conteúdo ############################*/
+  
+  article {
+    width: 100%;
+    height: 50%;
+  
+  }
+  
+  article .container {
+    display: flex;
+    width: 150%;
+    height: 100%;
+  
+  }
+  
+  article .container .area-image{
+    width: 40%;
+    height: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  article .container .area-image img{
+    width: 100%;
+    height: 50%;
+    margin-left: 0px !important;
+  }
+  
+  article .container .area-text {
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+  }
+  
+  article .container .area-text h1,h2,p {
+    width: 70%;
+    color: #1100ff;
+  }
+  
+  article .container .area-text h2{
+    color: #323235;
+    font-size: 14px;
+    margin-left: 0px !important;
+  }
+  
+  article .container .area-text h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1100ff;
+    margin-left: 0px !important;
+  }
+  
+  
+  article .container .area-text button {
+    background-color: transparent;
+    color: #1100ff;
+    border: 1px solid #1100ff;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 500ms;
+    font-size: 12px;
+    width: 190px;
+  }
+  
+  article .container .area-text button:hover {
+    background-color: #1100ff;
+    color: white;
+    border: 1px solid #ffffff;
+  }
+  
+  article .content {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  article .content .numeros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #1100ff;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;     
+  }
+  
+  article .content h1 {
+    color: #3d3d3d;
+  }
+  
+  article .content ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  article .content ul li  p {
+    margin: auto;
+    margin-bottom: 10%;
+  }
+  
+  article .content ul li {
+    list-style: none;
+    margin: 2%;
+  }
+  
+  article .content ul li h4 {
+    color: #1100ff;
+  }
+  
+
+
+  article .area-image iframe {
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    left: 230px;
+    border: 2px solid #0c00b1 !important;
+  }
+  
+  
+  /*############################ Rodape ############################*/
+  
+  footer {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    border-top: 1px solid #2c2c2c67;
+  }
+  
+  footer .parceiros {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  footer .parceiros ul {
+    display: grid;
+    margin: auto;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .parceiros h1 {
+    color: #1100ff;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  footer .parceiros ul li{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  footer .parceiros ul li img{
+    filter: grayscale(100%);
+    width: 150px;
+    height: 45px;
+    transition: 600ms;
+  }
+  
+  footer .parceiros ul li img:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  
+  footer .rodape {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to right, #1b1b1b, #2c2c2c, #1b1b1b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .rodape ul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  
+  footer .rodape ul li {
+    list-style: none;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  
+  
+  footer .rodape ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 500ms;
+    font-size: 8px;
+  }
+  
+  footer .rodape ul li a:hover {
+    color: #616060;
+  }
+  
+  
+  
+  /*############################ pagina Escola ############################*/
+  
+  article .escola-artigo {
+  
+    width: 100%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+  
+  }
+  
+  article .escola-artigo .imagem-artigo{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+  
+  }
+
+  article .escola-artigo .imagem-artigo iframe {
+    width: 400px;
+    height: 200px;
+  }
+  
+  article .escola-artigo .imagem-artigo h1 {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  
+  article .escola-artigo .imagem-artigo img{
+    width: 70%;
+    height: 50%;
+    border: 5px solid #1100ff;
+  }
+  
+  article .escola-artigo .texto-artigo {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  article .escola-artigo .texto-artigo h1 {
+    color: #1100ff;
+    font-size: 34px;
+    font-weight: bold;
+  }
+  
+  article .escola-artigo .texto-artigo h2 {
+    color: #2c2c2c;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+  
+  article .escola-artigo .texto-artigo p{
+    text-align: center;
+    color: #2c2c2c;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 1%;
+    width: 100%;
+  }
+  
+  
+  
+  
+  /*############################ pagina Artigo ############################*/
+  
+  article .articlearea {
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  article .articletextlist {
+    margin-top: 5%;
+  }
+  
+  article .articlearea .articletext {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  article .articlearea .articletext ul {
+    color: #141414;
+    list-style: none; 
+    margin-top: 10%;
+    width: 1000px;
+  }
+  
+  article .articlearea .articletext p {
+    text-align: left;
+    margin-top: 15px;
+    color: #141414;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  
+  article .articlelist {
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  article .articlelist .articletextlist {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  article .articlelist .articletextlist li {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  article .articlelist .articletextlist a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+  }
+  
+  
+  article .artigo {
+    width: 1020px;
+    height: 200px;
+    background-color: #f3f3f35d;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    box-shadow: rgba(128, 124, 124, 0.164) 2px 1px 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  article .artigo img{
+    width: 270px;
+    height: 200px;
+    float: left;
+  }
+  
+  article .artigo .artigotext {
+    width: 650px;
+    float: right;
+    margin-right: 90px;
+  }
+  
+  article .artigo .artigotext h1{
+    width: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    float: left;
+    color: rgb(10, 10, 10);
+  }
+  
+  article .artigo:hover h1{
+    color: #2c2c2c;
+    text-decoration: underline;
+  
+  }
+  
+  
+  article .artigo .artigotext p{
+    width: auto;
+    padding-right: 470px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 0%;
+  }
+  
+  article .artigo .artigoinforma {
+    width: 500px;
+  }
+  
+  article .artigo .artigoinforma p {
+    color: #2c2c2c;
+  }
+  
+  article .escola-artigo .artigo-background {
+    background-color: #141414;
+    height: 10rem;
+    border-bottom: 2px solid #363636;
+  }
+  
+  article .escola-artigo .artigo-background h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 2%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  article .escola-artigo .artigo-background p {
+    color: #ffffff;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 1%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+  article .escola-artigo .artigo-texto {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  article .escola-artigo .artigo-texto p{
+    color: #2c2c2c;
+    text-align: initial;
+    margin-left: 15%;
+  }
+  
+  article .escola-artigo .artigo-texto img{
+    width: 200px;
+    height: 190px;
+    margin-bottom: 2%;
+  }
+  
+  
+  
+  
+  /*############################ pagina JuiceTech ############################*/
+  
+  
+  article .container-jtech {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  article .container-jtech .area-image{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  article .container-jtech .area-image img{
+    width: 45%;
+    height: 30%;
+  }
+  
+  article .container-jtech .area-text-jtech {
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+  }
+  
+  article .container-jtech .area-text-jtech p {
+    width: 50%;
+    color: #eeedfc;
+  }
+  
+  article .container-jtech .area-text-jtech h2{
+    width: 60%;
+    color: #8d8d8d;
+  }
+  
+  article .container-jtech .area-text-jtech h1 {
+    width: 60%;
+    font-weight: bold;
+    font-size: 44px;
+    color: #eeedfc;
+  }
+  
+  
+  article .container-jtech .area-text-jtech button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    transition: 500ms;
+  }
+  
+  article .container-jtech .area-text-jtech button:hover {
+    background-color: #ffffff;
+    color: #292929;
+    border: 1px solid #ffffff;
+  }
+  
+  
+  
+  
+  
+  
+  /*############################ pagina Workshop ############################*/
+  
+  
+  article .workshop {
+    height: 500px;
+    width: 100%;
+    margin-top: 5%;
+    background-color:white;
+  }
+  
+  article .workshop h1{
+    color: #1100ff;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  article .workshop ul li {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    padding: 10px;
+  }
+  
+  article .workshop .bloco-workshop {
+    cursor: pointer;
+    border: 1px solid #1100ff;
+    background: #1100ff;
+    border-radius: 25px;
+    width: 300px;
+    height: 90px;
+    transition: 900ms;
+  }
+  
+  article .workshop .bloco-workshop:hover {
+    border: 1px solid #1100ff;
+    transition: 900ms;
+    background:#0c00b1;
+    border-radius: 50px;
+  }
+  
+  article .workshop .bloco-workshop p{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+  }
+  
+  article .workshop .bloco-workshop h1{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+  }
+  
+  
+  
+  
+  
+  /*############################ pagina Duvidas ############################*/
+  
+  article .duvidas {
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  
+  article .duvidas h1{
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  article .duvidas .faq ul li{
+    list-style: none;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  
+  }
+  
+  article .duvidas .faq ul li h1{
+    text-align: left;
+    padding-left: 2%;
+    padding: 1%;
+    font-size: 18px;
+    color: white;
+    background-color: #1b1b1b;
+    border-radius: 20px;
+  }
+  
+  article .duvidas .faq ul li p {
+    color: #141414;
+    padding-left: 2%;
+    margin-left: 0%;
+    text-align: left;
+  }
+  
+  
+  
+
+
+
+}
