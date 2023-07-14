@@ -876,6 +876,8 @@ article .duvidas .faq ul li p {
     width: 100%;
     height: 50%;
     margin-left: 0px !important;
+    position: relative;
+    left: 10px;
   }
   
   article .container .area-text {
@@ -972,8 +974,8 @@ article .duvidas .faq ul li p {
 
 
   article .area-image iframe {
-    height: 150px;
-    width: 220px;
+    height: 140px;
+    width: 210px;
     position: absolute;
     left: 160px;
     border: 2px solid #0c00b1 !important;
