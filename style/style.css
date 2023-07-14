@@ -742,7 +742,7 @@ article .duvidas .faq ul li p {
   
   /*############################ MENU ############################*/
   nav {
-    width: 130%;
+    width: 150%;
     height: 80%;
     background-color: #1100ff;
     font-size: 16px;
@@ -978,7 +978,7 @@ article .duvidas .faq ul li p {
   /*############################ Rodape ############################*/
   
   footer {
-    width: 100%;
+    width: 150%;
     height: auto;
     margin-top: 10%;
     border-top: 1px solid #2c2c2c67;
