@@ -1223,6 +1223,7 @@ article .duvidas .faq ul li p {
 
   article .articletextlist ul{
     display: table-caption;
+    padding-left: 10px;
   }
   
   article .artigo img{
