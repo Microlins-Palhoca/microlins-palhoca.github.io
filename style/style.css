@@ -1159,7 +1159,7 @@ article .duvidas .faq ul li p {
   }
   
   article .articlearea .articletext {
-    width: 1000px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -1191,9 +1191,8 @@ article .duvidas .faq ul li p {
   }
   
   article .articlelist .articletextlist {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 300px;
+    margin: 0px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -1211,8 +1210,8 @@ article .duvidas .faq ul li p {
   
   
   article .artigo {
-    width: 1020px;
-    height: 200px;
+    width: 350px;
+    height: 70px;
     background-color: #f3f3f35d;
     margin-left: auto;
     margin-right: auto;
@@ -1221,24 +1220,29 @@ article .duvidas .faq ul li p {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  article .articletextlist ul{
+    display: table-caption;
+  }
   
   article .artigo img{
-    width: 270px;
-    height: 200px;
+    width: 100px;
+    height: 70px;
     float: left;
   }
   
   article .artigo .artigotext {
-    width: 650px;
+    width: 240px;
     float: right;
-    margin-right: 90px;
+    margin-right: 0px;
   }
   
   article .artigo .artigotext h1{
     width: auto;
     padding-right: 10px;
-    padding-left: 10px;
-    font-size: 30px;
+    padding-left: 0px;
+    font-size: 12px;
+    margin-bottom: 0px !important;
     float: left;
     color: rgb(10, 10, 10);
   }
@@ -1251,32 +1255,35 @@ article .duvidas .faq ul li p {
   
   
   article .artigo .artigotext p{
-    width: auto;
-    padding-right: 470px;
-    padding-left: 10px;
+    width: 100px !important;
+    padding-right: 0px;
+    padding-left: 0px;
     margin-bottom: 0px;
     margin-top: 5px;
     float: left;
     margin-left: 0%;
+    font-size: 5px !important;
   }
   
   article .artigo .artigoinforma {
-    width: 500px;
+    width: 300px;
   }
   
   article .artigo .artigoinforma p {
     color: #2c2c2c;
+    font-size: 8px !important;
+    width: 230px !important;
   }
   
   article .escola-artigo .artigo-background {
     background-color: #141414;
-    height: 10rem;
+    height: 7rem;
     border-bottom: 2px solid #363636;
   }
   
   article .escola-artigo .artigo-background h1 {
     color: #ffffff;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: bold;
     padding-top: 2%;
     margin: auto;
